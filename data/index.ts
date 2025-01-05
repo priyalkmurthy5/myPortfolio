@@ -14,7 +14,7 @@ export const gridTitles = [
         className: "lg:col-span-2 md:col-span-4 md:row-span-2 lg:min-h-[40vh]",
         imgClassName: "w-full h-full",
         titleClassName: "justify-end",
-        img: "/collab.lottie",
+        img: "priya-portfolio/public/collab.lottie",
         spareImg: "",
     },
     {
