@@ -40,13 +40,13 @@ const Ideals = () => {
                                 autoplay
                             />
                             <div className="lg:ms-5">
-                                <h1 className="text-start text-xl md:text-2xl font-bold">
+                                <h1 className="text-start text-2xl md:text-2xl font-bold">
                                     {resume.title}
                                 </h1>
-                                <h2 className="text-start text-sm md:text-md font-bold">
+                                <h2 className="text-start text-lg md:text-md font-bold">
                                     My resume contains more details about my technical Experience and skills
                                 </h2>
-                                <h2 className="text-start text-sm md:text-md font-bold mt-3">
+                                <h2 className="text-start text-lg md:text-md font-bold mt-3">
                                     {resume.Description}
                                 </h2>
                                 <p className="text-start text-white mt-3 font-semibold">

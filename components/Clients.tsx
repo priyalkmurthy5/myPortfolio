@@ -17,7 +17,7 @@ const Clients = () => {
                         {companies.map(({ id, img, name }) =>
                             <div key={id} className='flex sm:max-w-100 max-w-80 gap-2 mt-5 mb-10' >
                                 <span>
-                                    <img className='md:w-40 w-35' src={img} alt={name} />
+                                    <img className='md:w-60 w-45' src={img} alt={name} />
 
                                 </span>
 
