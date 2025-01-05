@@ -6,7 +6,7 @@ const Grid = () => {
 
     return (
         <section id="about">
-            <BentoGrid className="w-full py-20">
+            <BentoGrid className="w-full py-15">
                 {gridTitles.map((item, i) => (
                     <BentoGridItem
                         className={item.className}

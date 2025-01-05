@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 
 export const BackgroundGradientAnimation = ({
     gradientBackgroundStart = "rgb(108, 0, 162)",
-    gradientBackgroundEnd = "rgb(0, 17, 82)",
+    gradientBackgroundEnd = "rgb(108, 0, 162)",
     firstColor = "18, 113, 255",
     secondColor = "221, 74, 255",
     thirdColor = "100, 220, 255",
@@ -89,7 +89,7 @@ export const BackgroundGradientAnimation = ({
     return (
         <div
             className={cn(
-                "h-screen w-screen relative overflow-hidden top-0 left-0 bg-[linear-gradient(40deg,var(--gradient-background-start),var(--gradient-background-end))]",
+                "h-full w-full absolute overflow-hidden top-0 left-0 bg-[linear-gradient(40deg,var(--gradient-background-start),var(--gradient-background-end))]",
                 containerClassName
             )}
         >
@@ -138,27 +138,27 @@ export const BackgroundGradientAnimation = ({
                 ></div>
                 <div
                     className={cn(
-                        `absolute [background:radial-gradient(circle_at_center,_rgba(var(--third-color),_0.8)_0,_rgba(var(--third-color),_0)_50%)_no-repeat]`,
-                        `[mix-blend-mode:var(--blending-value)] w-[var(--size)] h-[var(--size)] top-[calc(50%-var(--size)/2)] left-[calc(50%-var(--size)/2)]`,
-                        `[transform-origin:calc(50%+400px)]`,
+                        `absolute [background:radial-gradient(circle_at_center,_rgba(var(--third-color),_0.8)_0,_rgba(var(--third-color),_0)_70%)_no-repeat]`,
+                        `[mix-blend-mode:var(--blending-value)] w-[var(--size)] h-[var(--size)] top-[calc(70%-var(--size)/2)] left-[calc(70%-var(--size)/2)]`,
+                        `[transform-origin:calc(70%+400px)]`,
                         `animate-third`,
                         `opacity-100`
                     )}
                 ></div>
                 <div
                     className={cn(
-                        `absolute [background:radial-gradient(circle_at_center,_rgba(var(--fourth-color),_0.8)_0,_rgba(var(--fourth-color),_0)_50%)_no-repeat]`,
-                        `[mix-blend-mode:var(--blending-value)] w-[var(--size)] h-[var(--size)] top-[calc(50%-var(--size)/2)] left-[calc(50%-var(--size)/2)]`,
-                        `[transform-origin:calc(50%-200px)]`,
+                        `absolute [background:radial-gradient(circle_at_center,_rgba(var(--fourth-color),_0.8)_0,_rgba(var(--fourth-color),_0)_70%)_no-repeat]`,
+                        `[mix-blend-mode:var(--blending-value)] w-[var(--size)] h-[var(--size)] top-[calc(70%-var(--size)/2)] left-[calc(50%-var(--size)/2)]`,
+                        `[transform-origin:calc(70%-200px)]`,
                         `animate-fourth`,
-                        `opacity-70`
+                        `opacity-100`
                     )}
                 ></div>
                 <div
                     className={cn(
-                        `absolute [background:radial-gradient(circle_at_center,_rgba(var(--fifth-color),_0.8)_0,_rgba(var(--fifth-color),_0)_50%)_no-repeat]`,
-                        `[mix-blend-mode:var(--blending-value)] w-[var(--size)] h-[var(--size)] top-[calc(50%-var(--size)/2)] left-[calc(50%-var(--size)/2)]`,
-                        `[transform-origin:calc(50%-800px)_calc(50%+800px)]`,
+                        `absolute [background:radial-gradient(circle_at_center,_rgba(var(--fifth-color),_0.95)_0,_rgba(var(--fifth-color),_0)_70%)_no-repeat]`,
+                        `[mix-blend-mode:var(--blending-value)] w-[var(--size)] h-[var(--size)] top-[calc(70%-var(--size)/2)] left-[calc(50%-var(--size)/2)]`,
+                        `[transform-origin:calc(70%-800px)_calc(70%+800px)]`,
                         `animate-fifth`,
                         `opacity-100`
                     )}
@@ -169,7 +169,7 @@ export const BackgroundGradientAnimation = ({
                         ref={interactiveRef}
                         onMouseMove={handleMouseMove}
                         className={cn(
-                            `absolute [background:radial-gradient(circle_at_center,_rgba(var(--pointer-color),_0.8)_0,_rgba(var(--pointer-color),_0)_50%)_no-repeat]`,
+                            `absolute [background:radial-gradient(circle_at_center,_rgba(var(--pointer-color),_0.95)_0,_rgba(var(--pointer-color),_0)_50%)_no-repeat]`,
                             `[mix-blend-mode:var(--blending-value)] w-full h-full -top-1/2 -left-1/2`,
                             `opacity-70`
                         )}

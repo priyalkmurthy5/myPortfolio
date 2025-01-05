@@ -2,6 +2,7 @@ export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
     { name: "Testimonials", link: "#testimonials" },
+    { name: "Resume", link: "#resume" },
     { name: "Contact", link: "#contact" },
 ];
 
@@ -73,134 +74,117 @@ export const gridTitles = [
 export const projects = [
     {
         id: 1,
-        title: "3D Solar System Planets to Explore",
-        des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-        img: "/p1.svg",
-        iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-        link: "https://github.com/adrianhajdin?tab=repositories",
+        title: "E Learning Hub",
+        des: "A Faculty course management platform for seamless interaction (Flask, Blueprints, MySQL, and HTML/CSS) ",
+        img: "/p1.jpg",
+        iconLists: ["/flask.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+        link: "https://github.com/NityaNagaSai/E-LearnHub",
     },
     {
         id: 2,
-        title: "Yoom - Video Conferencing App",
-        des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-        img: "/p2.svg",
+        title: "WanderNest : MERN-Stack-App",
+        des: "A Hotels Rental Application like Airbnb with User Friendly front-end",
+        img: "/p2.jpg",
         iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-        link: "https://github.com/adrianhajdin/zoom-clone",
+        link: "https://github.com/priyalkmurthy5/WanderNest-MERN-Stack-App",
     },
     {
         id: 3,
-        title: "AI Image SaaS - Canva Application",
-        des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-        img: "/p3.svg",
+        title: "Mental Health Predictor",
+        des: "Mental Health Treatment prediction using various ML models",
+        img: "/p3.jpg",
         iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-        link: "https://github.com/adrianhajdin/ai_saas_app",
+        link: "https://github.com/priyalkmurthy5/Mental-Health-Predictor",
     },
     {
         id: 4,
-        title: "Animated Apple Iphone 3D Website",
-        des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-        img: "/p4.svg",
+        title: "Amazon Fine Foods Review : NLP - Roberta",
+        des: "Sentiment analysis on Amazon Fine Food reviews using NLP",
+        img: "/p4.jpg",
         iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-        link: "https://github.com/adrianhajdin/iphone",
+        link: "https://github.com/priyalkmurthy5/AmazonFineFoodsReview_NLP_Roberta",
     },
 ];
 
 export const testimonials = [
     {
         quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
+            "I had the privilege of working with Priya in couple of projects as her Lead and Project Architect. In my association with Priya, I have been constantly impressed by her analytical, logical reasoning skills and knowledge in problem solving skills. I observed that her teamwork skills are excellent as she worked with different team members across the globe. She has been a go-getter seeking right assistance from the right person for completing the assigned task. She has been the role model for the new members in the team for her sincerity, honesty, integrity and punctuality. I highly recommend Priya for Project Lead, Research and Development roles that she is interested in Software.",
+        name: "Bhavana Bhat",
+        title: "Principal Staff Engineer, Motorola Mobility",
     },
     {
         quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
+            "I have had the pleasure of working closely with Priya for three years, and I am delighted to recommend her without hesitation. Our collaboration on developing a React web application for an entire year allowed me to witness firsthand her exceptional skills and dedication. Beyond her technical prowess, Priya is a hardworking and intelligent individual. She consistently goes above and beyond to deliver exceptional results, even when faced with challenging deadlines or complex problems. Her dedication and commitment to her work are unmatched, and she has consistently proven herself as a valuable asset to our team. I have no doubt that Priya would be a tremendous asset to any organization.",
+        name: "Gopalkrishna MS",
+        title: "Staff Engineer, Motorola Mobility",
     },
     {
         quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
-    },
-    {
-        quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
-    },
-    {
-        quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
+            "I would highly Priya Krishnamurthy for any opportunity that involves ReactJS development. I have had the pleasure of working closely with Priya for the past two years, and I have been consistently impressed by her technical expertise, dedication, and excellent communication skills. Priya's proficiency in ReactJS is excellent. She has an in-depth understanding of the framework and consistently delivers high-quality code. Furthermore, Priya is a quick learner who adapts swiftly to new technologies and tools, making her an invaluable asset in any development team.",
+        name: "Somina Lakshmana Hanuman Mahath",
+        title: "Software Engineer, Motorola Mobility",
     },
 ];
 
 export const companies = [
     {
         id: 1,
-        name: "cloudinary",
-        img: "/cloud.svg",
-        nameImg: "/cloudName.svg",
+        name: "Motorola Mobility",
+        img: "/moto.png",
     },
     {
         id: 2,
-        name: "appwrite",
-        img: "/app.svg",
-        nameImg: "/appName.svg",
+        name: "iSimcha LLC",
+        img: "/isimcha.png",
     },
     {
         id: 3,
-        name: "HOSTINGER",
-        img: "/host.svg",
-        nameImg: "/hostName.svg",
-    },
-    {
-        id: 4,
-        name: "stream",
-        img: "/s.svg",
-        nameImg: "/streamName.svg",
-    },
-    {
-        id: 5,
-        name: "docker.",
-        img: "/dock.svg",
-        nameImg: "/dockerName.svg",
+        name: "Toshiba Global Commerce Solutions",
+        img: "/toshiba.png",
     },
 ];
 
 export const workExperience = [
     {
         id: 1,
-        title: "Frontend Engineer Intern",
-        desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+        title: "Software Engineer Intern",
+        company: "Toshiba Global Commerce  Solutions",
+        desc: "Enhanced MongoDB data access speed through API optimization and developed a Vue.js UI in a microservice environment with robust automated testing.",
         className: "md:col-span-2",
         thumbnail: "/exp1.svg",
     },
     {
         id: 2,
-        title: "Mobile App Dev - JSM Tech",
-        desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-        className: "md:col-span-2", // change to md:col-span-2
+        title: "AI Software Engineer Intern",
+        company: "iSimcha LLC",
+        desc: "Built an LLM-based chatbot leveraging RAG and LangChain, achieving a 96% semantic similarity score and improving clinical trial usability filters by 15%.",
+        className: "md:col-span-2",
         thumbnail: "/exp2.svg",
     },
     {
         id: 3,
-        title: "Freelance App Dev Project",
+        title: "Software Engineer",
+        company: "Motorola Mobility",
         desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-        className: "md:col-span-2", // change to md:col-span-2
+        className: "md:col-span-2",
         thumbnail: "/exp3.svg",
     },
     {
         id: 4,
         title: "Lead Frontend Developer",
+        company: "Motorola Mobility",
         desc: "Developed and maintained user-facing features using modern frontend technologies.",
         className: "md:col-span-2",
         thumbnail: "/exp4.svg",
     },
 ];
+
+export const resume = {
+    img: "/resume.lottie",
+    title: "My Resume",
+    Description: "Click on this button to view my Resume"
+}
 
 export const socialMedia = [
     {
