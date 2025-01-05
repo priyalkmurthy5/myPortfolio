@@ -109,19 +109,19 @@ export const projects = [
 export const testimonials = [
     {
         quote:
-            "I had the privilege of working with Priya in couple of projects as her Lead and Project Architect. In my association with Priya, I have been constantly impressed by her analytical, logical reasoning skills and knowledge in problem solving skills. I observed that her teamwork skills are excellent as she worked with different team members across the globe. She has been a go-getter seeking right assistance from the right person for completing the assigned task. She has been the role model for the new members in the team for her sincerity, honesty, integrity and punctuality. I highly recommend Priya for Project Lead, Research and Development roles that she is interested in Software.",
+            "I had the privilege of working with Priya in couple of projects as her Lead and Project Architect. In my association with Priya, I have been constantly impressed by her analytical, logical reasoning skills and knowledge in problem solving skills. She has been the role model for the new members in the team for her sincerity, honesty, integrity and punctuality. I highly recommend Priya for Project Lead, Research and Development roles that she is interested in Software.",
         name: "Bhavana Bhat",
         title: "Principal Staff Engineer, Motorola Mobility",
     },
     {
         quote:
-            "I have had the pleasure of working closely with Priya for three years, and I am delighted to recommend her without hesitation. Our collaboration on developing a React web application for an entire year allowed me to witness firsthand her exceptional skills and dedication. Beyond her technical prowess, Priya is a hardworking and intelligent individual. She consistently goes above and beyond to deliver exceptional results, even when faced with challenging deadlines or complex problems. Her dedication and commitment to her work are unmatched, and she has consistently proven herself as a valuable asset to our team. I have no doubt that Priya would be a tremendous asset to any organization.",
+            "I have had the pleasure of working closely with Priya for three years, and I am delighted to recommend her without hesitation. Our collaboration on developing a React web application for an entire year allowed me to witness firsthand her exceptional skills and dedication. Beyond her technical prowess, Priya is a hardworking and intelligent individual. She consistently goes above and beyond to deliver exceptional results, even when faced with challenging deadlines or complex problems.",
         name: "Gopalkrishna MS",
         title: "Staff Engineer, Motorola Mobility",
     },
     {
         quote:
-            "I would highly Priya Krishnamurthy for any opportunity that involves ReactJS development. I have had the pleasure of working closely with Priya for the past two years, and I have been consistently impressed by her technical expertise, dedication, and excellent communication skills. Priya's proficiency in ReactJS is excellent. She has an in-depth understanding of the framework and consistently delivers high-quality code. Furthermore, Priya is a quick learner who adapts swiftly to new technologies and tools, making her an invaluable asset in any development team.",
+            "I would highly Priya Krishnamurthy for any opportunity that involves ReactJS development. I have had the pleasure of working closely with Priya for the past two years, and I have been consistently impressed by her technical expertise, dedication, and excellent communication skills. Priya's proficiency in ReactJS is excellent. Furthermore, Priya is a quick learner who adapts swiftly to new technologies and tools, making her an invaluable asset in any development team.",
         name: "Somina Lakshmana Hanuman Mahath",
         title: "Software Engineer, Motorola Mobility",
     },
