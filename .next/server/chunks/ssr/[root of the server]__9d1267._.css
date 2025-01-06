@@ -1252,6 +1252,10 @@ button:active {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.animate-bounce {
+  animation: 1s infinite bounce;
+}
+
 @keyframes moveInCircle {
   0% {
     transform: rotate(0);
@@ -1366,14 +1370,6 @@ button:active {
 
 .animate-third {
   animation: 40s linear infinite moveInCircle;
-}
-
-.animate-spin {
-  animation: 1s linear infinite spin;
-}
-
-.animate-bounce {
-  animation: 1s infinite bounce;
 }
 
 .cursor-pointer {
@@ -1533,6 +1529,11 @@ button:active {
   border-color: rgb(229 229 229 / var(--tw-border-opacity, 1));
 }
 
+.border-pink-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(236 72 153 / var(--tw-border-opacity, 1));
+}
+
 .border-slate-800 {
   --tw-border-opacity: 1;
   border-color: rgb(30 41 59 / var(--tw-border-opacity, 1));
@@ -1544,11 +1545,6 @@ button:active {
 
 .border-white\/\[0\.4\] {
   border-color: #fff6;
-}
-
-.border-pink-500 {
-  --tw-border-opacity: 1;
-  border-color: rgb(236 72 153 / var(--tw-border-opacity, 1));
 }
 
 .\!bg-\[\#161a31\] {
@@ -1760,6 +1756,16 @@ button:active {
   padding-bottom: 1.5rem;
 }
 
+.px-2 {
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
+.py-3 {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+}
+
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -1908,11 +1914,6 @@ button:active {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.text-neutral-50 {
-  --tw-text-opacity: 1;
-  color: rgb(250 250 250 / var(--tw-text-opacity, 1));
 }
 
 .antialiased {
@@ -2259,16 +2260,6 @@ button:active {
 
   .sm\:w-\[570px\] {
     width: 570px;
-  }
-
-  .sm\:flex-col {
-    flex-direction: column;
-  }
-
-  .sm\:space-x-4 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(1rem * var(--tw-space-x-reverse));
-    margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .sm\:px-10 {
