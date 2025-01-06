@@ -39,7 +39,7 @@ export const TextGenerateEffect = ({
                             key={word + idx}
                             className={`${idx > 3 ? 'text-pink-400' : 'dark:text-white text-black'}`}
                             style={{
-                                filter: filter ? "blur(10px)" : "none",
+                                filter: filter ? "blur(5px)" : "none",
                             }}
                         >
                             {word}{" "}

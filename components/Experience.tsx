@@ -4,7 +4,7 @@ import { Button } from './ui/MovingBorders'
 
 const Experience = () => {
     return (
-        <section id="testimonials">
+        <section id="experience">
             <div className="py-20 w-full">
                 <h1 className="heading text-white">
                     My <span className="text-pink-500">work experience</span>
@@ -33,8 +33,11 @@ const Experience = () => {
                                     <h1 className="text-start text-xl md:text-2xl font-bold">
                                         {card.title}
                                     </h1>
-                                    <h2 className="text-start text-sm md:text-md font-bold">
+                                    <h2 className="text-start text-lg md:text-md font-bold">
                                         {card.company}
+                                    </h2>
+                                    <h2 className="text-start text-sm md:text-xs font-bold">
+                                        {card.dates}
                                     </h2>
                                     <p className="text-start text-white mt-3 font-semibold">
                                         {card.desc}

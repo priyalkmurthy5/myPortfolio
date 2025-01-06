@@ -1,12 +1,30 @@
+"use client";
+import { useState } from "react";
 import { socialMedia } from "@/data";
 import LitUpButton from "./ui/litUpButton";
 
 const Footer = () => {
+    const handleSelect = (id: number) => {
+        if (id === 2) {
+            window.open(
+                "https://www.linkedin.com/in/priyalkmurthy/",
+                "_blank",
+                "noopener,noreferrer"
+            );
+        } else if (id === 1) {
+            window.open(
+                "https://github.com/priyalkmurthy5",
+                "_blank",
+                "noopener,noreferrer"
+            );
+        }
+
+    };
     return (
         <footer className=" bg-black-100 w-full pt-20 pb-10" id="contact">
             <div className="w-full absolute left-0 -bottom-72 min-h-96">
                 <img
-                    src="/footer-grid.svg"
+                    src="./footer-grid.svg"
                     alt="grid"
                     className="w-full h-full opacity-50 "
                 />
@@ -36,6 +54,19 @@ const Footer = () => {
                 </p>
 
 
+
+
+            </div>
+
+            <div className="flex items-center justify-center mt-5 md:gap-3 gap-6">
+                {socialMedia.map((info) => (
+                    <div
+                        key={info.id}
+                        className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
+                    >
+                        <img src={info.img} alt="icons" width={20} height={20} onClick={() => handleSelect(info.id)} />
+                    </div>
+                ))}
             </div>
         </footer>
     );

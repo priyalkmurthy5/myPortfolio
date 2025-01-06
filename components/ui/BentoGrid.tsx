@@ -82,7 +82,7 @@ export const BentoGridItem = ({
 
                 </div>
                 <div
-                    className={`absolute h-auto left-40 -bottom-10 ${id === 5 && "w-full"
+                    className={`absolute h-auto left-40 -bottom-10 hidden md:block ${id === 5 && "w-full"
                         } `}
                 >
                     {img && id == 5 && (

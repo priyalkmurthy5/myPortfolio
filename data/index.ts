@@ -2,6 +2,7 @@ export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
     { name: "Testimonials", link: "#testimonials" },
+    { name: "Experience", link: "#experience" },
     { name: "Resume", link: "#resume" },
     { name: "Contact", link: "#contact" },
 ];
@@ -150,6 +151,7 @@ export const workExperience = [
         id: 1,
         title: "Software Engineer Intern",
         company: "Toshiba Global Commerce  Solutions",
+        dates: "August 2024 - December 2024",
         desc: "Enhanced MongoDB data access speed through API optimization and developed a Vue.js UI in a microservice environment with robust automated testing.",
         className: "md:col-span-2",
         thumbnail: "./exp1.svg",
@@ -158,6 +160,7 @@ export const workExperience = [
         id: 2,
         title: "AI Software Engineer Intern",
         company: "iSimcha LLC",
+        dates: "May 2024 - August 2024",
         desc: "Built an LLM-based chatbot leveraging RAG and LangChain, achieving a 96% semantic similarity score and improving clinical trial usability filters by 15%.",
         className: "md:col-span-2",
         thumbnail: "./exp2.svg",
@@ -166,14 +169,16 @@ export const workExperience = [
         id: 3,
         title: "Software Engineer",
         company: "Motorola Mobility",
+        dates: "October 2020 - June 2023",
         desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
         className: "md:col-span-2",
         thumbnail: "./exp3.svg",
     },
     {
         id: 4,
-        title: "Lead Frontend Developer",
+        title: "Software Engineer Intern",
         company: "Motorola Mobility",
+        dates: "January 2020 - May 2020",
         desc: "Developed and maintained user-facing features using modern frontend technologies.",
         className: "md:col-span-2",
         thumbnail: "./exp4.svg",
@@ -183,7 +188,7 @@ export const workExperience = [
 export const resume = {
     img: "./resume.lottie",
     title: "My Resume",
-    Description: "Click on this button to view my Resume"
+    Description: "Dive into my journey—check out my Resume."
 }
 
 export const socialMedia = [
@@ -193,10 +198,6 @@ export const socialMedia = [
     },
     {
         id: 2,
-        img: "/twit.svg",
-    },
-    {
-        id: 3,
         img: "/link.svg",
     },
 ];

@@ -18,9 +18,11 @@ const Hero = () => {
                         <Spotlight className='-top-10 -left-full h-[80vh] w-[50vw]' fill="red" />
                         <Spotlight className='top-28 left-80 h-[88vh] w-[50vw]' fill="pink" />
 
-                        <TextGenerateEffect className='text-center text-[40px] md:text-5xl lg:text-6xl' words='Crafting Scalable Solutions to Empower and Simplify Lives' />
-
-                        <p className='text-center md:tracking-wider mt-4 mb-4 text-sm md:text-lg lg:text-2xl'> Hi, I'm Priya, a Full-Stack Developer passionate about blending technology and accessibility to drive real-world impact.
+                        {/* <TextGenerateEffect className='text-center text-[40px] md:text-5xl lg:text-6xl' words='Crafting Scalable Solutions to Empower and Simplify Lives' /> */}
+                        <h1 className="text-center text-bold text-[40px] md:text-5xl lg:text-6xl">
+                            Crafting Scalable Solutions to <span className="text-center text-[40px] text-bold md:text-5xl lg:text-6xl text-pink-500">Empower and Simplify Lives</span>
+                        </h1>
+                        <p className='text-center md:tracking-wider mt-4 mb-4 text-sm md:text-lg lg:text-2xl'> Hi, I'm Priya Krishnamurthy, a Full-Stack Developer passionate about blending technology and accessibility to drive real-world impact.
 
                         </p>
                         <a href='#about'>

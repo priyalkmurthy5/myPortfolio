@@ -44,7 +44,7 @@ const Ideals = () => {
                                     {resume.title}
                                 </h1>
                                 <h2 className="text-start text-lg md:text-md font-bold">
-                                    My resume contains more details about my technical Experience and skills
+                                    Explore my resume for a deeper dive into my technical expertise and skillset.
                                 </h2>
                                 <h2 className="text-start text-lg md:text-md font-bold mt-3">
                                     {resume.Description}
